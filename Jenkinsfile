@@ -11,7 +11,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("satheshkumar/img1")
+        app = docker.build("satheshkumar/img2")
     }
 
     stage('Test image') {
