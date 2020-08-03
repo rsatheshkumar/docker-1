@@ -11,7 +11,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("sound-ors/docker")
+        app = docker.build("rsatheshkumar/docker-1")
     }
 
     stage('Test image') {
